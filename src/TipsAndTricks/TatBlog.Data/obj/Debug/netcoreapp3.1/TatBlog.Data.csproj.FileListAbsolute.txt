@@ -1,0 +1,13 @@
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\bin\Debug\netcoreapp3.1\TatBlog.Data.deps.json
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\bin\Debug\netcoreapp3.1\TatBlog.Data.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\bin\Debug\netcoreapp3.1\TatBlog.Data.pdb
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\bin\Debug\netcoreapp3.1\TatBlog.Core.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\bin\Debug\netcoreapp3.1\TatBlog.Core.pdb
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.csproj.AssemblyReference.cache
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.AssemblyInfoInputs.cache
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.AssemblyInfo.cs
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.csproj.CoreCompileInputs.cache
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.csproj.CopyComplete
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Data\obj\Debug\netcoreapp3.1\TatBlog.Data.pdb

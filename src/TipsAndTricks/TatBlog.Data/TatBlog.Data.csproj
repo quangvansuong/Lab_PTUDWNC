@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>a2a8dc6f-3d00-4f6c-a6c9-e53d4cef6fd2</UserSecretsId>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,6 @@
 
   <ItemGroup>
     <Folder Include="Seeders\" />
-    <Folder Include="Contexts\" />
   </ItemGroup>
 
   <ItemGroup>

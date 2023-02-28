@@ -6325,24 +6325,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+      "projectUniqueName": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
       "projectName": "TatBlog.WinApp",
-      "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+      "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.WinApp\\obj\\",
+      "outputPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WinApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6356,14 +6351,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Core\\TatBlog.Core.csproj"
+            "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Data\\TatBlog.Data.csproj"
+            "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj"
             },
-            "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Services\\TatBlog.Services.csproj": {
-              "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Services\\TatBlog.Services.csproj"
+            "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj": {
+              "projectPath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj"
             }
           }
         }

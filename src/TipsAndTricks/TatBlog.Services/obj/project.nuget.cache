@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VKQbhaaG1ZvDcT+Jrl+toXdHi96fE2A8xXEXm15PUYqnfjwPFCfibIO5ujoIx23X01kOwFJ1OVv6QouDzurUsQ==",
+  "dgSpecHash": "50JZe2IsmSQoQCt/iutx4ICkgPzsgSMXOD+8+1UIjrqaPnmAzPnXpcXGHdUREK8SByPp6K5BoLg6Xomv6+DLSg==",
   "success": true,
-  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Services\\TatBlog.Services.csproj",
+  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

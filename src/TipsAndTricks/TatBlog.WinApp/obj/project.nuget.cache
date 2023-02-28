@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VNBXISaif4rXRsu8c3QJwWDaFxdOcNVKAJC4aL+GRLFDFuF4fJwLRFootMA2WbBbaOsDPAfO+mxHYemBUPIJ9g==",
+  "dgSpecHash": "kNFzKq/HWo2+HgffCSELm5G5aKZW7LL0dD0f35cimyvr/M/pwAvQikY8X/EMMIwCEUPZV99/kU7upink4bwqgg==",
   "success": true,
-  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
