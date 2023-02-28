@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LsYC7CHrdV3yoZRqkImC6pzwcd9hQb5VeD1h4zRuHOzI1WCgTyqCMsufOT0A+eVqZyKn2tbOTYkoi0+XeeJe6Q==",
+  "success": true,
+  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab01\\ConsoleApp1\\TatBlog.Core\\TatBlog.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
