@@ -5,8 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using TatBlog.Core.Entities;
 using TatBlog.Data.Mappings;
 
-namespace TatBlog.Data.Contexts
-{
+namespace TatBlog.Data.Contexts;
+
     public class BlogDbContext : DbContext
     {
         public DbSet<Author> Authors { get; set; }
@@ -17,8 +17,8 @@ namespace TatBlog.Data.Contexts
         protected override void OnConfiguring
             (DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server =LAPTOP-GEIT9Q0O; Database=TatBlog;
-Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer(@"Server = LAPTOP-GEIT9Q0O; Database=TatBlog;
+Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,4 +26,4 @@ Trusted_Connection=True;MultipleActiveResultSets=true");
         }
     }
 
-}
+

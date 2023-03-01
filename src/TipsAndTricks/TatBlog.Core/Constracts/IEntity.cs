@@ -4,7 +4,8 @@ using System.Text;
 
 namespace TatBlog.Core.Constracts
 {
-    internal interface IEntity
+
+    public interface IEntity
     {
         int Id { get; set; }
     }

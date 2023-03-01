@@ -5,8 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using TatBlog.Core.Entities;
 
-namespace TatBlog.Data.Mappings
-{
+namespace TatBlog.Data.Mappings;
+
     public class CategoryMap : IEntityTypeConfiguration<Category>
     {
         public void Configure(EntityTypeBuilder<Category> builder)
@@ -16,14 +16,14 @@ namespace TatBlog.Data.Mappings
             builder.Property(p => p.Name)
                 .HasMaxLength(50)
                 .IsRequired();
-            builder.Property(p => p.Decsription)
-                .HasMaxLength(500);
             builder.Property(p => p.UrlSlug)
                 .HasMaxLength(50)
                 .IsRequired();
+            builder.Property(p => p.Decsription)
+                .HasMaxLength(500);   
             builder.Property(p => p.ShowOnMenu)
                 .IsRequired()
                 .HasDefaultValue(false);
         }
     }
-}
+

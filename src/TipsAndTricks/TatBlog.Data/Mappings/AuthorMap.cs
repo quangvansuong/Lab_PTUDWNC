@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using TatBlog.Core.Entities;
 
 
-namespace TatBlog.Data.Mappings
-{ 
+namespace TatBlog.Data.Mappings;
+ 
  public class AuthorMap : IEntityTypeConfiguration<Author>
 {
  public void Configure(EntityTypeBuilder<Author> builder)
@@ -31,5 +31,4 @@ namespace TatBlog.Data.Mappings
             .HasMaxLength (500);
 
     }
-}
 }
