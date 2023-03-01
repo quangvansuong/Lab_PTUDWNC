@@ -79,3 +79,4 @@ S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlo
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net7.0\TatBlog.WinApp.pdb
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net7.0\TatBlog.WinApp.genruntimeconfig.cache
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net7.0\ref\TatBlog.WinApp.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll

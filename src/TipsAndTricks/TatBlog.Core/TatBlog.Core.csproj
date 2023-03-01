@@ -6,11 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Collections\" />
-    <Folder Include="Constracts\" />
     <Folder Include="Contsants\" />
     <Folder Include="Settings\" />
-    <Folder Include="DTO\" />
   </ItemGroup>
 
 </Project>

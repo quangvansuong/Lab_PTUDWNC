@@ -106,8 +106,7 @@ namespace TatBlog.Data.Seeders
                     {
                         tags[0]
                     }
-
-                }
+                }, 
             };
             _dbContext.AddRange (posts);
             _dbContext.SaveChanges();
