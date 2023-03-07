@@ -14,7 +14,19 @@ namespace TatBlog.Data.Contexts;
         public DbSet<Post> Posts { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
-        protected override void OnConfiguring
+        //Lab02 -->
+        public BlogDbContext(DbContextOptions<BlogDbContext> options) 
+            : base(options)
+        {   
+        }
+        
+        protected override void OnModelCreating(ModelBuider modelBuider)
+    {
+        modelBuider.ApplyConfigurationsFromAssembly(
+            typeof(CategoryMap).Assembly);
+    }
+        //Lab02 <--
+    protected override void OnConfiguring
             (DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server = LAPTOP-GEIT9Q0O; Database=TatBlog;

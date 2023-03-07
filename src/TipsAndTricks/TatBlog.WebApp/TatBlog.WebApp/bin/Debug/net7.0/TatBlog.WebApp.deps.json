@@ -1,0 +1,158 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TatBlog.WebApp/1.0.0": {
+        "dependencies": {
+          "TatBlog.Core": "1.0.0.0",
+          "TatBlog.Data": "1.0.0.0",
+          "TatBlog.Services": "1.0.0.0"
+        },
+        "runtime": {
+          "TatBlog.WebApp.dll": {}
+        }
+      },
+      "TatBlog.Core/1.0.0.0": {
+        "runtime": {
+          "TatBlog.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TatBlog.Data/1.0.0.0": {
+        "runtime": {
+          "TatBlog.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TatBlog.Services/1.0.0.0": {
+        "runtime": {
+          "TatBlog.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/7.0.3.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.323.6302"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/7.0.3.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.323.6302"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/7.0.3.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.SqlServer.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.323.6302"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.3.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.323.6302"
+          }
+        }
+      },
+      "System.Linq.Dynamic.Core/1.2.25.0": {
+        "runtime": {
+          "System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.25.0",
+            "fileVersion": "1.2.25.0"
+          }
+        }
+      },
+      "Microsoft.Data.SqlClient/5.0.0.0": {
+        "runtime": {
+          "Microsoft.Data.SqlClient.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client/4.45.0.0": {
+        "runtime": {
+          "Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.45.0.0",
+            "fileVersion": "4.45.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TatBlog.WebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TatBlog.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TatBlog.Data/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TatBlog.Services/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore/7.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Relational/7.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer/7.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Linq.Dynamic.Core/1.2.25.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.SqlClient/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.45.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
