@@ -16,10 +16,10 @@ public class PostMap : IEntityTypeConfiguration<Post>
         builder.Property(p => p.Title)
             .HasMaxLength(500)
             .IsRequired();
-        builder.Property(p => p.ShortDesciption)
+        builder.Property(p => p.ShortDescription)
             .HasMaxLength(5000)
             .IsRequired();
-        builder.Property(p => p.Decsription)
+        builder.Property(p => p.Description)
           .HasMaxLength(5000)
           .IsRequired();
         builder.Property(p => p.Meta)
