@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using TatBlog.Services.Blogs;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace TatBlog.WebApp.Controllers
 {
@@ -12,10 +15,32 @@ namespace TatBlog.WebApp.Controllers
         public IActionResult About()
             => View();
 
-        public IActionResult contact() 
+        public IActionResult contact()
             => View();
 
-        public IActionResult Rss() 
+        public IActionResult Rss()
             => Content("Nội dung sẽ được cập nhật");
+
+        private readonly IBlogRepository _blogRepository;
+        public BlogController(IBlogRepository blogRepository)
+        {
+            _blogRepository = blogRepository;
+        }
+
+        public async Task<IActionResult> Index(
+            [FromQuery(Name = "p")] int pageNumber = 1,
+            [FromQuery(Name = "ps")] int pageSize = 10)
+            {
+
+           var postQuery = new PostQuery()
+            {
+                publishdOnly =  true
+            };
+            var postsList = await _blogRepository
+                  .GetPagedPostsAsync(postQuery, pageNumber, pageSize);
+            
+            ViewBag.PostQuery = postQuery;
+            return View(postsList);
+            }
     }
 }
