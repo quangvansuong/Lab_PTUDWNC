@@ -128,33 +128,56 @@ namespace TatBlog.Services.Blogs
             return await tagQuery
                 .ToPagedListAsync(pagingParams, cancellationToken);
         }
+        public async Task<IPagedList<Post>> GetPagedPostsAsync(
+        PostQuery condition,
+        int pageNumber = 1,
+        int pageSize = 10,
+        CancellationToken cancellationToken = default)
+        {
+            return await FilterPosts(condition).ToPagedListAsync(
+                pageNumber, pageSize,
+                nameof(Post.PostedDate), "DESC",
+                cancellationToken);
+        }
 
-       // public Task<Post> GetPostAsync(
-       //      int year,
-       //      int month,
-       //      string slug,
-       //      CancellationToken cancellationToken = default)
-       // { 
-       //     throw new NotImplementedException();
-       // }
+        public async Task<IPagedList<T>> GetPagedPostsAsync<T>(
+            PostQuery condition,
+            IPagingParams pagingParams,
+            Func<IQueryable<Post>, IQueryable<T>> mapper)
+        {
+            var posts = FilterPosts(condition);
+            var projectedPosts = mapper(posts);
 
-       //public Task<IList<Post>> GetPopularArticlesAsync(
-       //   int numPosts, CancellationToken cancellationToken = default)
-       // {
-       //     throw new NotSupportedException();
-       // }
-       //public Task<bool> IsPostSlugExistendAsync(
-       //   int postId, string slug, CancellationToken cancellationToken = default)
-       // {
-       //     throw new NotImplementedException(); 
-       // }
+            return await projectedPosts.ToPagedListAsync(pagingParams);
+        }
 
-       // public Task IncreaseViewCountAsync(
-       //   int postId,
-       //   CancellationToken cancellationToken = default)
-       // {
-       //     throw new NotSupportedException(); 
-       // }
+
+        // public Task<Post> GetPostAsync(
+        //      int year,
+        //      int month,
+        //      string slug,
+        //      CancellationToken cancellationToken = default)
+        // { 
+        //     throw new NotImplementedException();
+        // }
+
+        //public Task<IList<Post>> GetPopularArticlesAsync(
+        //   int numPosts, CancellationToken cancellationToken = default)
+        // {
+        //     throw new NotSupportedException();
+        // }
+        //public Task<bool> IsPostSlugExistendAsync(
+        //   int postId, string slug, CancellationToken cancellationToken = default)
+        // {
+        //     throw new NotImplementedException(); 
+        // }
+
+        // public Task IncreaseViewCountAsync(
+        //   int postId,
+        //   CancellationToken cancellationToken = default)
+        // {
+        //     throw new NotSupportedException(); 
+        // }
 
 
     }
