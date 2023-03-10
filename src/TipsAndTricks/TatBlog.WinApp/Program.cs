@@ -1,19 +1,24 @@
-﻿using Microsoft.Extensions.Caching.Memory;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using TatBlog.Core.Constracts;
 using TatBlog.Core.Entities;
 using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
+using TatBlog.Services.Extensions;
 
 namespace TatBlog.WinApp;
 
 public class Program
 {
     static async Task Main(string[] args)
-
-        // PHẦN B
+{
+    // PHẦN B
     {
         //var context = new BlogDbContext();
 
@@ -61,30 +66,28 @@ public class Program
         //        item.Id,item.Name, item.PostCount);
         //}
 
-        Console.WriteLine("Nhập tên định danh của thẻ cần tìm: ");
-        string temp = Console.ReadLine();
-        var context = new BlogDbContext();
-        var tag = context.Tags
-            .Where(p => p.UrlSlug == temp)
-            .Select (p => new
-            {
-                Id = p.Id,
-                Name = p.Name,
-                UrlSlug = p.UrlSlug,
+        //Console.WriteLine("Nhập tên định danh của thẻ cần tìm: ");
+        //string temp = Console.ReadLine();
+        //var context = new BlogDbContext();
+        //var tag = context.Tags
+        //    .Where(p => p.UrlSlug == temp)
+        //    .Select(p => new
+        //    {
+        //        Id = p.Id,
+        //        Name = p.Name,
+        //        UrlSlug = p.UrlSlug,
 
-            })
-            .ToList();
+        //    })
+        //    .ToList();
 
 
-        foreach (var item in tag)
-        {
-            Console.WriteLine("id   : {0}", item.Id);
-            Console.WriteLine("Name   : {0}", item.Name);
+        //foreach (var item in tag)
+        //{
+        //    Console.WriteLine("id   : {0}", item.Id);
+        //    Console.WriteLine("Name   : {0}", item.Name);
+        //}
         }
-
-
     }
 }
-
 
 

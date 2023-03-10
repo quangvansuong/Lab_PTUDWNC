@@ -34,6 +34,17 @@ namespace TatBlog.Services.Blogs
         Task<IPagedList<TagItem>> GetPagedTagAsync(
             IPagingParams pagingParams,
             CancellationToken cancellationToken = default);
+
+        /* public async*/
+        public Task<IPagedList<Post>> GetPagedPostsAsync(
+        PostQuery condition,
+        int pageNumber = 1,
+        int pageSize = 10,
+        CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 
 }
