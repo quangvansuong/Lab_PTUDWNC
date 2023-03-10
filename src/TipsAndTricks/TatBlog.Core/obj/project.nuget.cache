@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2dLqGpWpnDPpyRLQJ6qDoYyxUvMOqywhRpInvO+MTqAx3GOWpXblmgQUxyFUqelyPTmLv6xDX16X3dqpBIJPAA==",
+  "dgSpecHash": "lvhG1hzdX+ZUJ8n2T5YyZrFsCM4IP4aha1MeM3htoeaFynO3s/rGI6X5T/6CyUuLXmqTDDZ+R1HS0MhJXS2cOw==",
   "success": true,
-  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
+  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\Lab_Clone10323\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
