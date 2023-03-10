@@ -27,12 +27,12 @@ namespace TatBlog.Data.Contexts;
             typeof(CategoryMap).Assembly);
     }
 
-    protected override void OnConfiguring
-            (DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server = LAPTOP-GEIT9Q0O; Database=TatBlog;
-Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true");
-        }
+//    protected override void OnConfiguring
+//            (DbContextOptionsBuilder optionsBuilder)
+//        {
+//            optionsBuilder.UseSqlServer(@"Server = LAPTOP-GEIT9Q0O; Database=TatBlog;
+//Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true");
+//        }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryMap).Assembly);           

@@ -17,7 +17,7 @@ namespace TatBlog.WebApp.Controllers
         public IActionResult About()
             => View();
 
-        public IActionResult contact()
+        public IActionResult Contact()
             => View();
 
         public IActionResult Rss()
