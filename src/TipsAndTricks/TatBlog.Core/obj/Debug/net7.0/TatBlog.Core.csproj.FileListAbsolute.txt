@@ -22,3 +22,15 @@ C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatB
 C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\refint\TatBlog.Core.dll
 C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.pdb
 C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\ref\TatBlog.Core.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.deps.json
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.pdb
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.AssemblyReference.cache
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfoInputs.cache
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfo.cs
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\refint\TatBlog.Core.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.pdb
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\ref\TatBlog.Core.dll

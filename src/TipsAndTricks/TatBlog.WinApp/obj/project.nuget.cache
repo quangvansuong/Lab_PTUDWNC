@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JusEE1vDW6dWdgm1585QbYEsmxS3WiP/zp4YgG8h5hdH+S0KKhWO/lbEGOC6LKimTDNtEZrMg6lS8vwB2I5KUw==",
+  "dgSpecHash": "vb3c/wP4VrLshefO3ynHLyfBjnhZbqX+uoKTUmtAJ9my7ci1daqq1qeIO7juD/MSU4mF6j8uuOs5TSTwT3ULvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\2014476-Lab02-Homework\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+  "projectFilePath": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
