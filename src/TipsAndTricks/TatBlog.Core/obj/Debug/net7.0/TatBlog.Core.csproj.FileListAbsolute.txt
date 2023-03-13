@@ -1,12 +1,24 @@
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.deps.json
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.dll
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.pdb
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.AssemblyReference.cache
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfoInputs.cache
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfo.cs
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.CoreCompileInputs.cache
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.dll
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\refint\TatBlog.Core.dll
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.pdb
-S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\Lab_Clone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\ref\TatBlog.Core.dll
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.deps.json
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.dll
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.pdb
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.AssemblyReference.cache
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfoInputs.cache
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfo.cs
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.dll
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\refint\TatBlog.Core.dll
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.pdb
+F:\MinhNhat12\Third Years\HKII\Advanced Web Application Development\Lab02\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\ref\TatBlog.Core.dll
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.deps.json
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.dll
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.pdb
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.dll
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\refint\TatBlog.Core.dll
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.pdb
+C:\Users\ADMIN\Desktop\2014476-Lab02-Homework\TatBlog.Core\obj\Debug\net7.0\ref\TatBlog.Core.dll
