@@ -3,6 +3,7 @@ using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.WebApp.Extensions;
+using TatBlog.WebApp.Mapsters;
 
 namespace TatBlog.WebApp
 {
@@ -14,7 +15,9 @@ namespace TatBlog.WebApp
             {
                 builder
                     .ConfigureMvc()
-                    .ConfigureServices();
+                    .ConfigureServices()
+                    .ConfigureMapster();
+
             };
 
             var app = builder.Build();
@@ -24,6 +27,7 @@ namespace TatBlog.WebApp
                 app.UseDataSeeder();
             }
 
+          
             app.Run();
         }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xod8VKcyBrw9Vzm44e0MzFmUkMrmCcwEzi46pKZf/p0=",
+  "Hash": "43i4pADNGfHJOOjNXlN8z66y41Gb9212losT80YwZZk=",
   "Source": "TatBlog.WebApp",
   "BasePath": "_content/TatBlog.WebApp",
   "Mode": "Default",
@@ -5642,6 +5642,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\README.md"
+    },
+    {
+      "Identity": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\LICENSE",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\LICENSE"
+    },
+    {
+      "Identity": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\README.md",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/README.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\README.md"
+    },
+    {
+      "Identity": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\speakingurl.min.js",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/speakingurl.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\speakingurl.min.js"
     }
   ]
 }

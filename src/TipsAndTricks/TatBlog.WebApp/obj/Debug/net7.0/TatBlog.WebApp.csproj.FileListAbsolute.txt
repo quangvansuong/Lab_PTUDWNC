@@ -441,3 +441,6 @@ S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\Mapster.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\Mapster.DependencyInjection.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\SlugGenerator.dll

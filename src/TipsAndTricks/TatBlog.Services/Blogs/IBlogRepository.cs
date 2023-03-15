@@ -32,6 +32,13 @@ namespace TatBlog.Services.Blogs
         Task<IList<CategoryItem>> GetCategoriesAsync(
             bool ShowOnMenu = false,
             CancellationToken cancellationToken = default);
+        // Task<IList<Author>> GetAuthorsAsync();
+
+        //Lấy danh sách chuyên mục
+        public Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
 
         // Lấy danh sách từ khóa/ thẻ và phân theo thamso
         Task<IPagedList<TagItem>> GetPagedTagsAsync(
@@ -61,6 +68,20 @@ namespace TatBlog.Services.Blogs
             PostQuery condition,
             int pageNumber = 1, int pageSize = 10,
             CancellationToken cancellationToken = default);
+
+        Task<Post> GetPostByIdAsync(
+           int postId, bool includeDetails = false,
+           CancellationToken cancellationToken = default);
+
+        Task<Post> CreateOrUpdatePostAsync(
+     Post post, IEnumerable<string> tags,
+     CancellationToken cancellationToken = default);
+
+
+
+        // Định nghĩa cho AuthorsAsync
+
+
     }
 }
 

@@ -17,5 +17,4 @@ public class Author : IEntity
 	public string Email { get; set; }
 	public string Notes { get; set; }
 	public IList<Post> Posts { get; set; }
-
 }

@@ -34,4 +34,5 @@ public class Post : IEntity
 
 	// Danh sách từ khóa bài viết
 	public IList<Tag> Tags { get; set; }
+   
 }

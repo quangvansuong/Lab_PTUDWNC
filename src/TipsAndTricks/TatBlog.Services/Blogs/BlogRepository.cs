@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using SlugGenerator;
 using TatBlog.Core.Contracts;
 using TatBlog.Core.DTO;
 using TatBlog.Core.Entities;
@@ -39,6 +40,27 @@ namespace TatBlog.Services.Blogs
                     Description = x.Description,
                     ShowOnMenu = x.ShowOnMenu,
                     PostCount = x.Posts.Count(p => p.Published)
+                })
+                .ToListAsync(cancellationToken);
+        }
+
+
+
+        //Lấy danh sách tác giả
+        public async Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default)
+        {
+            return await _context.Set<Author>()
+                .OrderBy(a => a.FullName)
+                .Select(a => new AuthorItem()
+                {
+                    Id = a.Id,
+                    FullName = a.FullName,
+                    Email = a.ToString(),
+                    JoinedDate = a.JoinedDate,
+                    ImageUrl = a.ImageUrl,
+                    UrlSlug = a.UrlSlug,
+                    Notes = a.Notes,
+                    PostCount = a.Posts.Count(p => p.Published)
                 })
                 .ToListAsync(cancellationToken);
         }
@@ -175,6 +197,54 @@ namespace TatBlog.Services.Blogs
                 nameof(Post.PostedDate), "DESC",
                 cancellationToken);
         }
+        public async Task<Post> CreateOrUpdatePostAsync(
+    Post post, IEnumerable<string> tags,
+    CancellationToken cancellationToken = default)
+        {
+            if (post.Id > 0)
+            {
+                await _context.Entry(post).Collection(x => x.Tags).LoadAsync(cancellationToken);
+            }
+            else
+            {
+                post.Tags = new List<Tag>();
+            }
+
+            var validTags = tags.Where(x => !string.IsNullOrWhiteSpace(x))
+                .Select(x => new
+                {
+                    Name = x,
+                    Slug = x.GenerateSlug()
+                })
+                .GroupBy(x => x.Slug)
+                .ToDictionary(g => g.Key, g => g.First().Name);
+
+
+            foreach (var kv in validTags)
+            {
+                if (post.Tags.Any(x => string.Compare(x.UrlSlug, kv.Key, StringComparison.InvariantCultureIgnoreCase) == 0)) continue;
+
+                var tag = await GetTagsAsync(kv.Key, cancellationToken) ?? new Tag()
+                {
+                    Name = kv.Value,
+                    Description = kv.Value,
+                    UrlSlug = kv.Key
+                };
+
+                post.Tags.Add(tag);
+            }
+
+            post.Tags = post.Tags.Where(t => validTags.ContainsKey(t.UrlSlug)).ToList();
+
+            if (post.Id > 0)
+                _context.Update(post);
+            else
+                _context.Add(post);
+
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return post;
+        }
 
         private IQueryable<Post> FilterPosts(PostQuery condition)
         {
@@ -244,6 +314,9 @@ namespace TatBlog.Services.Blogs
 
             return posts;
 
+           
+
+
             //// Compact version
             //return _context.Set<Post>()
             //	.Include(x => x.Category)
@@ -265,6 +338,23 @@ namespace TatBlog.Services.Blogs
             //	.WhereIf(condition.Month > 0, x => x.PostedDate.Month == condition.Month)
             //	.WhereIf(!string.IsNullOrWhiteSpace(condition.TitleSlug), x => x.UrlSlug == condition.TitleSlug);
         }
+        public async Task<Post> GetPostByIdAsync(
+  int postId, bool includeDetails = false,
+  CancellationToken cancellationToken = default)
+        {
+            if (!includeDetails)
+            {
+                return await _context.Set<Post>().FindAsync(postId);
+            }
+
+            return await _context.Set<Post>()
+                .Include(x => x.Category)
+                .Include(x => x.Author)
+                .Include(x => x.Tags)
+                .FirstOrDefaultAsync(x => x.Id == postId, cancellationToken);
+        }
+
+
 
 
     }
