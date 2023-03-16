@@ -444,3 +444,7 @@ S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\Mapster.dll
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\Mapster.DependencyInjection.dll
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\SlugGenerator.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\obj\Debug\net7.0\TatBlog.WebApp.MvcApplicationPartsAssemblyInfo.cs
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -1,4 +1,7 @@
-﻿using MapsterMapper;
+﻿using FluentValidation;
+using FluentValidation.AspNetCore;
+using FluentValidation.Results;
+using MapsterMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using TatBlog.Core.Entities;
@@ -14,8 +17,9 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
         //public IActionResult Index()
         //{
         //    return View();
-       
+
         //}
+        private readonly IValidator<PostEditModel> _postValidator;
         [HttpGet]
         public async Task<IActionResult> Edit(int id = 0)
         {
@@ -33,6 +37,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             return View(model);
         }
         [HttpPost]
+
         public async Task<IActionResult> VerifyPostSlug(
             int id, string urlSlug)
         {
@@ -43,9 +48,19 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
                 ? Json($"Slug'{urlSlug}' đã được sử dụng")
                 : Json(true);
         }
-        public async Task<IActionResult> Edit(PostEditModel model)
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(
+            
+            PostEditModel model)
+
         {
-            if (ModelState.IsValid) 
+            var validationResult = await _postValidator.ValidateAsync(model);
+            if (!validationResult.IsValid)
+            {
+                validationResult.AddToModelState(ModelState);
+            }
+            if (!ModelState.IsValid)
             {
                 await PopulatePostEditModelAsync(model);
                 return View(model);
@@ -119,11 +134,13 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
         public PostsController(
             IBlogRepository blogRepository,
             IMediaManager mediaManager,
-            IMapper mapper)
+            IMapper mapper,
+            IValidator<PostEditModel> postValidator)
         {
             _blogRepository = blogRepository;
             _mediaManager = mediaManager;
             _mapper = mapper;
+            _postValidator = postValidator;
         }
 
 

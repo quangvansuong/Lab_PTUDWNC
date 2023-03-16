@@ -1337,6 +1337,14 @@
       "PackagePath": "staticwebassets\\lib\\speakingurl\\speakingurl.min.js"
     },
     {
+      "Id": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\6395ed27581c4f5eba2fd2adacde09cd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\6395ed27581c4f5eba2fd2adacde09cd.jpg"
+    },
+    {
+      "Id": "S:\\MONHOC\\NAM3\\Ky2\\WebNangCao\\Lab\\MyClone\\Lab_PTUDWNC\\src\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\88d217d97eda4741812f3d66238e4ba5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\88d217d97eda4741812f3d66238e4ba5.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TatBlog.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
