@@ -2,6 +2,7 @@
 using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
+using TatBlog.Services.Media;
 
 namespace TatBlog.WebApp.Extensions
 {
@@ -15,7 +16,7 @@ namespace TatBlog.WebApp.Extensions
 
             return builder;
         }
-
+        // Đăng ký các dịch vụ với DI Container
         public static WebApplicationBuilder ConfigureServices(
             this WebApplicationBuilder builder)
         {
@@ -24,9 +25,10 @@ namespace TatBlog.WebApp.Extensions
                     builder.Configuration
                         .GetConnectionString("DefaultConnection")));
 
+            builder.Services.AddScoped<IMediaManager, LocalFileSystemMediaManager>();
             builder.Services.AddScoped<IBlogRepository, BlogRepository>();
             builder.Services.AddScoped<IDataSeeder, DataSeeder>();
-
+         
             return builder;
         }
 
