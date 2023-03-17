@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NLog.Web;
 using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
@@ -8,6 +9,14 @@ namespace TatBlog.WebApp.Extensions
 {
     public static class WebApplicationExtensions
     {
+        public static WebApplicationBuilder ConfiggureNLog(
+            this WebApplicationBuilder builder)
+        {
+            builder.Logging.ClearProviders();
+            builder.Host.UseNLog();
+
+            return builder;
+        }
         public static WebApplicationBuilder ConfigureMvc(
             this WebApplicationBuilder builder)
         {

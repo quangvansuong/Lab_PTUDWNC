@@ -448,3 +448,7 @@ S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.dll
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\nlog.config
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\NLog.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+S:\MONHOC\NAM3\Ky2\WebNangCao\Lab\MyClone\Lab_PTUDWNC\src\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
