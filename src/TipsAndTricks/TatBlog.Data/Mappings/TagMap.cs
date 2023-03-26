@@ -16,7 +16,7 @@ public class TagMap : IEntityTypeConfiguration<Tag>
         builder.Property(t => t.Name)
             .HasMaxLength(50)
             .IsRequired();
-        builder.Property(t => t.Decsription)
+        builder.Property(t => t.Description)
             .HasMaxLength(500);
 
         builder.Property(t => t.UrlSlug)

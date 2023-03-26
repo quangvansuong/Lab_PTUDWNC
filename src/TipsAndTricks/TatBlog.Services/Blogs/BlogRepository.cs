@@ -14,6 +14,7 @@ using TatBlog.Data.Contexts;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Extensions;
 
+
 namespace TatBlog.Services.Blogs
 {
 
@@ -105,7 +106,7 @@ namespace TatBlog.Services.Blogs
                     Id = x.Id,
                     Name = x.Name,
                     UrlSlug = x.UrlSlug,
-                    Description = x.Decsription,
+                    Description = x.Description,
                     ShowOnMenu = showOnMenu,
                     PostCount = x.Posts.Count(p => p.Published)
                 })
@@ -122,7 +123,7 @@ namespace TatBlog.Services.Blogs
                     Id = x.Id,
                     Name = x.Name,
                     UrlSlug = x.UrlSlug,
-                    Description = x.Decsription,
+                    Description = x.Description,
                     PostCount = x.Posts.Count(p => p.Published)
                 });
             return await tagQuery
@@ -210,6 +211,8 @@ namespace TatBlog.Services.Blogs
                 nameof(Post.PostedDate), "DESC",
                 cancellationToken);
         }
+
+
 
     }
 }

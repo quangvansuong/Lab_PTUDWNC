@@ -54,11 +54,11 @@ namespace TatBlog.Data.Seeders
         {
             var categories = new List<Category>()
             {
-            new() {Name = ".NET Core",  UrlSlug =  ".net-core", Decsription = ".NET Core",ShowOnMenu = false},
-            new() {Name = "Architecture",UrlSlug = "architecture", Decsription = "Architecture",  ShowOnMenu = false},
-            new() { Name = "Messagin", UrlSlug = "messagin", Decsription = "Messagin", ShowOnMenu = false},
-            new() {Name = "OOP", UrlSlug = "oop", Decsription = "Object-Oriented Program", ShowOnMenu = false},
-            new() {Name = "Design Patterns", UrlSlug = "design-patterns", Decsription = "Design Patterns", ShowOnMenu = false}
+            new() {Name = ".NET Core",  UrlSlug =  ".net-core", Description = ".NET Core",ShowOnMenu = false},
+            new() {Name = "Architecture",UrlSlug = "architecture", Description = "Architecture",  ShowOnMenu = false},
+            new() { Name = "Messagin", UrlSlug = "messagin", Description = "Messagin", ShowOnMenu = false},
+            new() {Name = "OOP", UrlSlug = "oop", Description = "Object-Oriented Program", ShowOnMenu = false},
+            new() {Name = "Design Patterns", UrlSlug = "design-patterns", Description = "Design Patterns", ShowOnMenu = false}
             };
             _dbContext.AddRange(categories);
             _dbContext.SaveChanges();
@@ -68,12 +68,12 @@ namespace TatBlog.Data.Seeders
         {
             var tags = new List<Tag>()
             {
-                new() {Name = "Google", Decsription = "Google application", UrlSlug = "Google"},
-                new() {Name = "ASP.NET MVC", Decsription = "ASP.NET MVC", UrlSlug = "ASP.NET MVC"},
-                new() {Name = "Razor Page", Decsription = "Razor Page", UrlSlug = "Razor Page"},
-                new() {Name = "Blazor", Decsription = "Blazor", UrlSlug = "Blazor"},
-                new() {Name = "Deep Learning", Decsription = "Deep Learning", UrlSlug = "Deep Learning"},
-                new() {Name = "Neural Network", Decsription = "Neural Network", UrlSlug = "Neural Network"}
+                new() {Name = "Google", Description = "Google application", UrlSlug = "Google"},
+                new() {Name = "ASP.NET MVC", Description = "ASP.NET MVC", UrlSlug = "ASP.NET MVC"},
+                new() {Name = "Razor Page", Description = "Razor Page", UrlSlug = "Razor Page"},
+                new() {Name = "Blazor", Description = "Blazor", UrlSlug = "Blazor"},
+                new() {Name = "Deep Learning", Description = "Deep Learning", UrlSlug = "Deep Learning"},
+                new() {Name = "Neural Network", Description = "Neural Network", UrlSlug = "Neural Network"}
 
             };
             _dbContext.AddRange(tags);
@@ -98,7 +98,7 @@ namespace TatBlog.Data.Seeders
                     ViewCount = 10,
                     Published = true,
                     PostedDate = new DateTime(2021, 9, 30, 10, 20, 0),
-                    ModifedDate = null,
+                    ModifiedDate = null,
                     Category = categories[0],
                     Author = authors[0],
                     

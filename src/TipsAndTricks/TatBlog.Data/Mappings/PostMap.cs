@@ -41,7 +41,7 @@ public class PostMap : IEntityTypeConfiguration<Post>
         builder.Property(p => p.PostedDate)
             .HasColumnType("datetime");
         
-        builder.Property(p => p.ModifedDate)
+        builder.Property(p => p.ModifiedDate)
            .HasColumnType("datetime");
 
 
