@@ -1,7 +1,5 @@
 ﻿<header>
-    <nav class="navbar navbar-expand-sm
-            navbar-toggleadble-sm navbar-light
-            bg-white border-bottom box-shadow">
+    <nav class="navbar navbar-expand-sm navbar-toggler navbar-light bg-white border-bottom shadow">
         <div class="container-fluid">
             <a class="navbar-brand"
                asp-area=""
@@ -9,20 +7,16 @@
                asp-action="Index">
                 Tips & Tricks
             </a>
-
             <button class="navbar-toggler"
                     type="button"
-                    data-bs-toggler="collapse"
-                    data-bs-targer=".navbar-collapse"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-lable="Toggler navigation">
+                    aria-expanded="False"
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="navbar-collapse collapse"
-                 d-sm-inline-flex
-                 justify-content-between">
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
                         <a class="nav-link text-dark"
@@ -56,10 +50,9 @@
                            asp-controller="Blog"
                            asp-action="Rss"
                            title="Tải danh sách bài viết mới">
-                            Rss Feed
+                            RSS Feed
                         </a>
                     </li>
-
                 </ul>
             </div>
         </div>

@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using TatBlog.Core.Constracts;
+﻿using Microsoft.EntityFrameworkCore;
+using TatBlog.Core.Contracts;
 using TatBlog.Core.DTO;
 using TatBlog.Core.Entities;
+
 
 namespace TatBlog.Services.Blogs
 {
     public interface IBlogRepository
     {
+        // tìm bài viết có tên định danh là slug
+        // và đăng vào tháng, năm?
+
         Task<Post> GetPostAsync(
             int year,
             int month,
@@ -21,30 +20,72 @@ namespace TatBlog.Services.Blogs
         Task<IList<Post>> GetPopularArticlesAsync(
             int numPosts,
             CancellationToken cancellationToken = default);
-        Task<bool>IsPostSlugExistendAsync(
+
+        Task<bool> IsPostSlugExitsedAsync(
             int postId, string slug,
             CancellationToken cancellationToken = default);
 
         Task IncreaseViewCountAsync(
             int postId,
             CancellationToken cancellationToken = default);
-        Task<IList<CategoryItem>> GetCategoriesAsync(
-            bool showOnMenu = false,
-            CancellationToken cancellationToken = default);
-        Task<IPagedList<TagItem>> GetPagedTagAsync(
-            IPagingParams pagingParams,
-            CancellationToken cancellationToken = default);
 
-        /* public async*/
-        public Task<IPagedList<Post>> GetPagedPostsAsync(
-        PostQuery condition,
-        int pageNumber = 1,
-        int pageSize = 10,
-        CancellationToken cancellationToken = default)
+        Task<IList<CategoryItem>> GetCategoriesAsync(
+            bool ShowOnMenu = false,
+            CancellationToken cancellationToken = default);
+        // Task<IList<Author>> GetAuthorsAsync();
+
+        //Lấy danh sách chuyên mục
+        public Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default)
         {
             throw new NotImplementedException();
         }
 
-    }
+        // Lấy danh sách từ khóa/ thẻ và phân theo thamso
+        Task<IPagedList<TagItem>> GetPagedTagsAsync(
+            IPagingParams pagingParams,
+            CancellationToken cancellationToken = default);
 
+        /// <summary>
+        /// 	// Phần C
+        // Lấy định danh (slug) từ 1 thể tag
+        /// </summary>
+        /// <param name="slug"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
+        Task<Tag> GetTagsAsync(
+            string slug,
+            CancellationToken cancellationToken = default);
+
+        // Lấy danh sách tất cả các tag + số bài viết chứa bài đó
+        Task<IList<TagItem>> GetAllTagsList(
+            CancellationToken cancellationToken = default);
+
+        // Xóa 1 tag theo mã
+        Task<Tag> RemoveTagsByIdAsync(int removeTag, CancellationToken cancellation = default);
+
+        // Method tìm kiếm phân trang theo các bài viết
+        Task<IPagedList<Post>> GetPagedPostsAsync(
+            PostQuery condition,
+            int pageNumber = 1, int pageSize = 10,
+            CancellationToken cancellationToken = default);
+
+        Task<Post> GetPostByIdAsync(
+           int postId, bool includeDetails = false,
+           CancellationToken cancellationToken = default);
+
+        Task<Post> CreateOrUpdatePostAsync(
+     Post post, IEnumerable<string> tags,
+     CancellationToken cancellationToken = default);
+
+
+
+        // Định nghĩa cho AuthorsAsync
+
+
+    }
 }
+
+
+
+
+
