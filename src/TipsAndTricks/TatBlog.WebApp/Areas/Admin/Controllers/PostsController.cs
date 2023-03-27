@@ -164,9 +164,14 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
                 Value = c.Id.ToString()
             });
         }
-        public async Task<IActionResult> Index(PostFilterModel model)
+        public async Task<IActionResult> Index(
+            PostFilterModel model, 
+            int p = 1,
+            int ps = 10
+            )
         {
             _logger.LogInformation("Tạo điều kiện truy vấn");
+
 
             // Sử dụng Mapster để tạo đôi tượng PostQuery
             // từ đối tượng PostFilterModel model
@@ -183,7 +188,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             //    Month = model.Month
             //};
             ViewBag.PostsList = await _blogRepository
-                .GetPagedPostsAsync(postQuery, 1, 10);
+                .GetPagedPostsAsync(postQuery, p, ps);
 
             _logger.LogInformation("Chuẩn bị dữ liệu cho ViewModel");
 

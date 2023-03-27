@@ -103,9 +103,9 @@ namespace TatBlog.Data.Seeders
             {
                 new()
                 {
-                    Title = "APS.NET Core Diagnostic Scenarios",
-                    ShortDescription = "David and friends has a great repos",
-                    Description  = "Here's a few great DON'T and DO examples",
+                    Title = "Tomy Tom",
+                    ShortDescription = "Được dịch từ tiếng Anh-Thomas Michael Shelby OBE DSM MM MP là một nhân vật hư cấu và là nhân vật chính của bộ phim truyền hình tội phạm thời kỳ Anh Peaky",
+                    Description  = "Được dịch từ tiếng Anh-Thomas Michael Shelby OBE DSM MM MP là một nhân vật hư cấu và là nhân vật chính của bộ phim truyền hình tội phạm thời kỳ Anh Peaky",
                     Meta = "David and friends has a great repository filled",
                     UrlSlug = "aspnet-core-diagnostic-scenarios",
                     ImageUrl = "/images/image_1.jpg",
@@ -125,8 +125,8 @@ namespace TatBlog.Data.Seeders
                  new()
                 {
                     Title = "M10 Messi",
-                    ShortDescription = "David and friends has a great repos",
-                    Description  = "Here's a few great DON'T and DO examples",
+                    ShortDescription = "Lionel Andrés Messi, còn được gọi là Leo Messi, là một cầu thủ bóng đá chuyên nghiệp người Argentina",
+                    Description  = "Lionel Andrés Messi, còn được gọi là Leo Messi, là một cầu thủ bóng đá chuyên nghiệp người Argentina",
                     Meta = "David and friends has a great repository filled",
                     UrlSlug = "aspnet-core-diagnostic-scenarios",
                     ImageUrl = "/images/image_8.jpg",
@@ -145,12 +145,12 @@ namespace TatBlog.Data.Seeders
 
                   new()
                 {
-                    Title = "Tomy Tom",
-                    ShortDescription = "David and friends has a great repos",
-                    Description  = "Here's a few great DON'T and DO examples",
+                    Title = "N'Golo Kanté",
+                    ShortDescription = "N'Golo Kanté là một cầu thủ bóng đá chuyên nghiệp người Pháp",
+                    Description  = "N'Golo Kanté là một cầu thủ bóng đá chuyên nghiệp người Pháp",
                     Meta = "David and friends has a great repository filled",
                     UrlSlug = "aspnet-core-diagnostic-scenarios",
-                    ImageUrl = "/images/image_2.jpg",
+                    ImageUrl = "/images/kante.jpg",
                     ViewCount = 10,
                     Published = true,
                     PostedDate = new DateTime(2023, 9, 20, 11, 20, 0),
@@ -167,8 +167,8 @@ namespace TatBlog.Data.Seeders
                    new()
                 {
                     Title = "CR7",
-                    ShortDescription = "David and friends has a great repos",
-                    Description  = "Here's a few great DON'T and DO examples",
+                    ShortDescription = "Cristiano Ronaldo dos Santos Aveiro là một cầu thủ bóng đá chuyên nghiệp người Bồ Đào Nha ",
+                    Description  = "Cristiano Ronaldo dos Santos Aveiro là một cầu thủ bóng đá chuyên nghiệp người Bồ Đào Nha   ",
                     Meta = "David and friends has a great repository filled",
                     UrlSlug = "aspnet-core-diagnostic-scenarios",
                     ImageUrl = "/images/image_3.jpg",
@@ -184,6 +184,168 @@ namespace TatBlog.Data.Seeders
                         tags[0]
                     }
                 },
+                     new()
+                {
+                    Title = "Neymar",
+                    ShortDescription = "Neymar da Silva Santos Júnior, thường được biết đến với tên gọi Neymar, là một cầu thủ bóng đá người Brasil ",
+                    Description  = "Neymar da Silva Santos Júnior, thường được biết đến với tên gọi Neymar, là một cầu thủ bóng đá người Brasil ",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/naymarjr.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                    PostedDate = new DateTime(2022, 2, 16, 12, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+                       new()
+                {
+                    Title = "Kylian Mbappé",
+                    ShortDescription = "Kylian Mbappé Lottin (sinh ngày 20 tháng 12 năm 1998) là một cầu thủ bóng đá chuyên nghiệp người Phápủ bóng đá chuyên nghiệp người Việt Nam ",
+                    Description  = "Hà ĐKylian Mbappé Lottin (sinh ngày 20 tháng 12 năm 1998) là một cầu thủ bóng đá chuyên nghiệp người Phápức Chinh (sinh ngày 22 tháng 9 năm 1997) là một cầu thủ bóng đá chuyên nghiệp người Việt Nam ",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/mpape.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                    PostedDate = new DateTime(2022, 2, 10, 12, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+
+                   new()
+                {
+                    Title = "Suarez",
+                    ShortDescription = "Luis Alberto Suárez Díaz là một cầu thủ bóng đá chuyên nghiệp người Uruguay ",
+                    Description  = "Luis Alberto Suárez Díaz là một cầu thủ bóng đá chuyên nghiệp người Uruguay ",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/suarez.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                    PostedDate = new DateTime(2021, 9, 30, 10, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+                   new()
+                {
+                    Title = "Công Phượng",
+                    ShortDescription = "Nguyễn Công Phượng là một cầu thủ bóng đá chuyên nghiệp người Việt Nam",
+                    Description  = "Nguyễn Công Phượng là một cầu thủ bóng đá chuyên nghiệp người Việt Nam",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/congphuong.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                   PostedDate = new DateTime(2023, 9, 30, 10, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+                   new()
+                {
+                    Title = "Đặng Văn Lâm",
+                    ShortDescription = "Đặng Văn Lâm là một cầu thủ bóng đá chuyên nghiệp người Việt–Nga và đội tuyển bóng đá quốc gia Việt Nam",
+                    Description  = "Đặng Văn Lâm là một cầu thủ bóng đá chuyên nghiệp người Việt–Nga và đội tuyển bóng đá quốc gia Việt Nam",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/dangvanlam.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                   PostedDate = new DateTime(2022, 9, 30, 10, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+                   new()
+                {
+                    Title = "Đoàn Văn Hậu",
+                    ShortDescription = "Đoàn Văn Hậu là một cầu thủ bóng đá chuyên nghiệp người Việt Nam",
+                    Description  = "Đoàn Văn Hậu là một cầu thủ bóng đá chuyên nghiệp người Việt Nam",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/doanvanhau.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                    PostedDate = new DateTime(2023, 9, 30, 10, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+                   new()
+                {
+                    Title = "Hà Đức Chinh",
+                    ShortDescription = "Hà Đức Chinh (sinh ngày 22 tháng 9 năm 1997) là một cầu thủ bóng đá chuyên nghiệp người Việt Nam ",
+                    Description  = "Hà Đức Chinh (sinh ngày 22 tháng 9 năm 1997) là một cầu thủ bóng đá chuyên nghiệp người Việt Nam ",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/haducchinh.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                    PostedDate = new DateTime(2021, 11, 30, 12, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+                   new()
+                {
+                    Title = "Nguyễn Quang Hải",
+                    ShortDescription = "Nguyễn Quang Hải là một cầu thủ bóng đá chuyên nghiệp người Việt Nam ",
+                    Description  = "Nguyễn Quang Hải là một cầu thủ bóng đá chuyên nghiệp người Việt Nam ",
+                    Meta = "David and friends has a great repository filled",
+                    UrlSlug = "aspnet-core-diagnostic-scenarios",
+                    ImageUrl = "/images/quanghai.jpg",
+                    ViewCount = 10,
+                    Published = true,
+                    PostedDate = new DateTime(2022, 8, 30, 8, 20, 0),
+                    ModifiedDate = null,
+                    Category = categories[0],
+                    Author = authors[0],
+
+                    Tags = new List<Tag>()
+                    {
+                        tags[0]
+                    }
+                },
+
             };
             _dbContext.AddRange(posts);
             _dbContext.SaveChanges();
