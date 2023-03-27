@@ -312,6 +312,8 @@ namespace TatBlog.Services.Blogs
                 posts = posts.Where(x => x.UrlSlug == condition.TitleSlug);
             }
 
+
+
             return posts;
 
            
@@ -354,7 +356,28 @@ namespace TatBlog.Services.Blogs
                 .FirstOrDefaultAsync(x => x.Id == postId, cancellationToken);
         }
 
+        // Hàm thay đổi trạng thái
+        public async Task<bool> ChangePublishedAsync(
+        int postId, CancellationToken cancellationToken = default)
+        {
+            var post = await _context.Set<Post>().FindAsync(postId);
 
+            if (post is null) return false;
+
+            post.Published = !post.Published;
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return post.Published;
+        }
+
+        // Gọi hàm xóa, khai báo tên hàm xóa
+        public async Task DeletePostAsync(
+        int postId, CancellationToken cancellationToken = default)
+        {
+            var post = await _context.Set<Post>().FindAsync(postId);
+            _context.Set<Post>().Remove(post);
+            await _context.SaveChangesAsync(cancellationToken);
+        }
 
 
     }

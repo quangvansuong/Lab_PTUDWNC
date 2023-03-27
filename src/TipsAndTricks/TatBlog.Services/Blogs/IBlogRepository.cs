@@ -77,10 +77,11 @@ namespace TatBlog.Services.Blogs
      Post post, IEnumerable<string> tags,
      CancellationToken cancellationToken = default);
 
+         Task<bool> ChangePublishedAsync(
+          int postId, CancellationToken cancellationToken = default);
 
-
-        // Định nghĩa cho AuthorsAsync
-
+         Task DeletePostAsync(
+       int postId, CancellationToken cancellationToken = default);
 
     }
 }

@@ -21,6 +21,9 @@ namespace TatBlog.WebApp.Areas.Admin.Models
         [DisplayName("Tháng")]
         public int? Month { get; set; }
 
+        [DisplayName("Chưa xuất bản")]
+        public bool NotPublished { get; set; }
+
         public IEnumerable<SelectListItem> AuthorList { get; set; }
 
         public IEnumerable<SelectListItem> CategoryList { get; set; }

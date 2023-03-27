@@ -196,5 +196,18 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             return View(model);
         }
 
+        // Hàm thay đổi 
+        public async Task<IActionResult> ChangePostOnClick (int id)
+        {
+            await _blogRepository.ChangePublishedAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+        // Hàm thay xóa
+        public async Task<IActionResult> DeletePostOnClick(int id)
+        {
+            await _blogRepository.DeletePostAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

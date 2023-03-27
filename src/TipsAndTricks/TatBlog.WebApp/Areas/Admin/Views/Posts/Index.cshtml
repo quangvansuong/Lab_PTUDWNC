@@ -21,6 +21,7 @@
                 <th>Tác giả</th>
                 <th>Chủ đề</th>
                 <th>Xuất bản</th>
+                <th>Xóa bài viết</th>
             </tr>
         </thead>
         <tbody>
@@ -29,10 +30,10 @@
                 <tr>
                     <td>
                         <a class="text-bold"
-                           asp-area="Admin"
-                           asp-controller="Posts"
-                           asp-action="Edit"
-                           asp-route-id="@post.Id">
+                   asp-area="Admin"
+                   asp-controller="Posts"
+                   asp-action="Edit"
+                   asp-route-id="@post.Id">
                             @post.Title
                         </a>
 
@@ -47,7 +48,24 @@
                         @post.Category.Name
                     </td>
                     <td>
-                        @(post.Published ? "Có" : "Không")
+                        <a asp-area="Admin"
+                           asp-controller="Posts"
+                           asp-action="ChangePostOnClick"
+                           asp-route-id="@post.Id"
+                               class="btn btn-warning" >
+                            @(post.Published ? "Có" : "Không")
+                        </a>
+
+                    </td>
+                    <td>
+                        <a asp-area="Admin"
+                           asp-controller="Posts"
+                           asp-action="DeletePostOnClick"
+                           asp-route-id="@post.Id"
+                           class="btn btn-primary"
+                           OnClick="return confirm('Bạn có chắc chắn là muốn xóa bài viết này không')">
+                            Xóa
+                        </a>
                     </td>
                 </tr>
             }
