@@ -6,24 +6,26 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Hosting;
 using System;
 using TatBlog.WebApi.Extensions;
+using TatBlog.WebApi.Mapsters;
+using TatBlog.WebApi.Validations;
 
-//var builder = WebApplication.CreateBuilder(args);
-
-
-//var app = builder.Build();
-// Early init of NLog to allow startup and exception logging, before host is built
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");
 
 
     var builder = WebApplication.CreateBuilder(args);
     {
-        // Add services to the container.
-        builder
-        .ConfigureCors()
-        .ConfigureNLog()
-        .ConfigureServices()
-        .ConfigureSwaggerOpenApi();
+    // Add services to the container.
+    builder
+    .ConfigureCors()
+    .ConfigureNLog()
+    .ConfigureServices()
+    .ConfigureSwaggerOpenApi()
+    .ConfigureMapster()
+    .ConfigureFluentValidation();
+
+
+
         //builder.Services.AddControllersWithViews();
     }
     // NLog: Setup NLog for Dependency injection
@@ -36,35 +38,5 @@ logger.Debug("init main");
         app.SetupRequestPipeline();
 
         app.Run();
-        //if (!app.Environment.IsDevelopment())
-        //{
-        //    app.UseExceptionHandler("/Home/Error");
-        //    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-        //    app.UseHsts();
-        //}
+       
     }
-
-    //    app.UseHttpsRedirection();
-    //    app.UseStaticFiles();
-
-    //    app.UseRouting();
-
-    //    app.UseAuthorization();
-
-    //    app.MapControllerRoute(
-    //        name: "default",
-    //        pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
-    //}
-    //catch (Exception exception)
-    //{
-    //    // NLog: catch setup errors
-    //    logger.Error(exception, "Stopped program because of exception");
-    //    throw;
-    //}
-    //finally
-    //{
-    //    // Ensure to flush and stop internal timers/threads before application-exit (Avoid segmentation fault on Linux)
-    //    NLog.LogManager.Shutdown();
-//app.Run();
