@@ -1,4 +1,5 @@
-﻿using TatBlog.Core.Constracts;
+﻿
+using TatBlog.Core.Contracts;
 
 namespace TatBlog.WebApi.Models
 {

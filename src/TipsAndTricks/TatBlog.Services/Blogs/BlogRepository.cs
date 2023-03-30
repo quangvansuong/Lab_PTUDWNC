@@ -197,6 +197,18 @@ namespace TatBlog.Services.Blogs
                 nameof(Post.PostedDate), "DESC",
                 cancellationToken);
         }
+
+        public async Task<IPagedList<T>> GetPagedPostsAsync<T>(
+            PostQuery condition,
+            IPagingParams pagingParams,
+            Func<IQueryable<Post>, IQueryable<T>> mapper)
+        {
+            var posts = FilterPosts(condition);
+            var projectedPosts = mapper(posts);
+
+            return await projectedPosts.ToPagedListAsync(pagingParams);
+        }
+
         public async Task<Post> CreateOrUpdatePostAsync(
     Post post, IEnumerable<string> tags,
     CancellationToken cancellationToken = default)
@@ -314,7 +326,7 @@ namespace TatBlog.Services.Blogs
 
             return posts;
 
-           
+
 
 
             //// Compact version

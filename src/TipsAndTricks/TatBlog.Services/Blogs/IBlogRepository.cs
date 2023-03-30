@@ -69,6 +69,11 @@ namespace TatBlog.Services.Blogs
             int pageNumber = 1, int pageSize = 10,
             CancellationToken cancellationToken = default);
 
+        Task<IPagedList<T>> GetPagedPostsAsync<T>(
+                 PostQuery condition,
+                 IPagingParams pagingParams,
+                 Func<IQueryable<Post>, IQueryable<T>> mapper);
+
         Task<Post> GetPostByIdAsync(
            int postId, bool includeDetails = false,
            CancellationToken cancellationToken = default);

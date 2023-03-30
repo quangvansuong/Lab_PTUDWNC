@@ -8,6 +8,7 @@ using System;
 using TatBlog.WebApi.Extensions;
 using TatBlog.WebApi.Mapsters;
 using TatBlog.WebApi.Validations;
+using TatBlog.WebApi.Endpoints;
 
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");
@@ -36,6 +37,9 @@ logger.Debug("init main");
     {
         // Configure the HTTP request pipeline.
         app.SetupRequestPipeline();
+
+        //Configure API endpoits
+        app.MapAuthorEndpoints();
 
         app.Run();
        
