@@ -187,6 +187,7 @@ namespace TatBlog.WebApi.Endpoints
             IAuthorRepository authorRepository,
             IMapper mapper)
         {
+
             //var validationResult = await validator.ValidateAsync(model);
 
             //if (!validationResult.IsValid)
