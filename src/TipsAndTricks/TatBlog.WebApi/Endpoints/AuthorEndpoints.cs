@@ -187,13 +187,12 @@ namespace TatBlog.WebApi.Endpoints
             IAuthorRepository authorRepository,
             IMapper mapper)
         {
-
             //var validationResult = await validator.ValidateAsync(model);
 
             //if (!validationResult.IsValid)
             //{
             //    return Results.Ok(ApiResponse.Fail(HttpStatusCode.BadRequest, validationResult));
-            //        //validationResult.Errors.ToResponse());
+            //    //validationResult.Errors.ToResponse());
             //}
 
             if (await authorRepository
@@ -209,7 +208,6 @@ namespace TatBlog.WebApi.Endpoints
                 ? Results.Ok(ApiResponse.Success("Author is update", HttpStatusCode.NoContent))
                 : Results.Ok(ApiResponse.Fail(HttpStatusCode.NotFound, "Could not find author"));
         }
-
         private static async Task<IResult> DeleteAuthor(
             int id, IAuthorRepository authorRepository)
         {
