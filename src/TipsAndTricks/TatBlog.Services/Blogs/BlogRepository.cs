@@ -202,6 +202,7 @@ namespace TatBlog.Services.Blogs
     CancellationToken cancellationToken = default)
         {
             if (post.Id > 0)
+
             {
                 await _context.Entry(post).Collection(x => x.Tags).LoadAsync(cancellationToken);
             }
